@@ -4,45 +4,64 @@
     <semester>
         Spring 2020
         <event>
-            <name>Office Hours</name>
+            <name> Office Hours </name>
             <day>2</day>
             <start>
-                <hour>10</hour>
-                <minute>30</minute>
+                <hour>12</hour>
+                <minute>0</minute>
             </start>
             <stop>
-                <hour>11</hour>
-                <minute>30</minute>
+                <hour>13</hour>
+                <minute>0</minute>
             </stop>
             <location>
-                <building>Vulgamore</building>
-                <room>311</room>
+                <building>Palenske</building>
+                <room>226</room>
             </location>
-            <color>#99ff33</color>
+            <color>#ff0000</color>
             <interruptible>T</interruptible>
         </event>
 
         <event>
-            <name>Office Hours</name>
-            <day>4</day>
+            <name> Office Hours </name>
+            <day>3</day>
             <start>
-                <hour>10</hour>
-                <minute>30</minute>
+                <hour>15</hour>
+                <minute>0</minute>
             </start>
             <stop>
-                <hour>11</hour>
-                <minute>30</minute>
+                <hour>16</hour>
+                <minute>0</minute>
             </stop>
             <location>
-                <building>Vulgamore</building>
-                <room>311</room>
+                <building>Palenske</building>
+                <room>226</room>
             </location>
-            <color>#99ff33</color>
+            <color>#ff0000</color>
             <interruptible>T</interruptible>
         </event>
 
         <event>
-            <name>Office Hours</name>
+            <name> Office Hours </name>
+            <day>5</day>
+            <start>
+                <hour>14</hour>
+                <minute>0</minute>
+            </start>
+            <stop>
+                <hour>15</hour>
+                <minute>0</minute>
+            </stop>
+            <location>
+                <building>Palenske</building>
+                <room>226</room>
+            </location>
+            <color>#ff0000</color>
+            <interruptible>T</interruptible>
+        </event>
+
+        <event>
+            <name> Office Hours </name>
             <day>6</day>
             <start>
                 <hour>10</hour>
@@ -53,12 +72,13 @@
                 <minute>30</minute>
             </stop>
             <location>
-                <building>Vulgamore</building>
-                <room>311</room>
+                <building>Palenske</building>
+                <room>226</room>
             </location>
-            <color>#99ff33</color>
+            <color>#ff0000</color>
             <interruptible>T</interruptible>
         </event>
-    </semester>
+
+     </semester>
 
 </schedule>

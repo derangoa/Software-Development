@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<professor category="faculty">
+<name>Wesley Dick</name>
+<email>wdick@albion.edu</email>
+<department>History</department>
+<picture></picture>
+<phone></phone>
+<cell></cell>
+<schedule>?</schedule>
+<office>
+	<room>213</room>
+	<building>Robinson</building>
+</office>
+</professor>

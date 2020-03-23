@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<!-- This is my first HTML Project (Anna DeRango) -->
+<head>
+<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Yeseva+One&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+<title> Anna's Website </title>
+
+
+<style>
+* {
+  box-sizing: border-box;
+  background-color: powderblue;
+  }
+
+
+
+.side {
+float: left;
+width: 20%;
+margin: 10px;
+overflow: auto;
+
+}
+
+.middle {
+float: left;
+width: 75%;
+margin: 10px;
+overflow: auto;
+}
+
+.middle h3 {
+font-family: 'Abril Fatface', cursive;
+padding: 10px;
+font-size: 25px;
+margin: 0;
+background-color: black;
+color: white;
+border-style: inset;
+}
+
+h2 {
+font-size: 33px;
+font-family: 'Fredericka the Great', cursive;
+color: black;
+padding: 5px;
+
+
+text-align: center;
+}
+
+
+
+
+.top {
+font-family: 'Fredericka the Great', cursive;
+text-align: center;
+font-size: 40px;
+padding: 0;
+margin: 0;
+}
+
+img {
+float: left;
+margin: 0;
+padding: 0;
+margin: 5px;
+border-style: inset;
+}
+
+
+ul.sidebar {
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+ul.sidebar li {
+
+font-family: 'Abril Fatface', cursive;
+font-size: 20px;
+
+margin-bottom: 25px;
+overflow: auto;
+}
+
+li a {
+display: block;
+text-decoration: none;
+color: white;
+background-color: black;
+padding: 8px;
+
+}
+
+.div2 {
+clear: left;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h4{
+font-size: 20px;
+font-family: 'Abril Fatface', cursive;
+border-radius: 25px;
+background-color: gray;
+color: white;
+padding: 10px;
+}
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: gray;
+  background-color: linen;
+  text-decoration: underline;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="top">
+<h1> &#9734;Welcome to my website!&#9734; </h1>
+</div>
+
+
+<div class="side">
+<h2> Navigation </h2>
+<ul class="sidebar">
+<li> <a href="#travel">Travels</a> </li>
+<li> <a href="#baking">Baking </a></li>
+<li> <a href="#crafts">Arts and Crafts </a></li>
+<li> <a href="#food">Food and Drink</a></li>
+</ul>
+
+
+</div>
+
+<div class="middle">
+<h2> About Me </h2>
+<h3 id="travel"> Travels </h3>
+<img src="https://i2.wp.com/kidworldcitizen.org/wp-content/uploads/2011/12/121411map_ghana.jpg?ssl=1" alt="map of ghana" width=150> </img>
+<p>I've been to Ghana (in Africa), England, and The Netherlands.I went to Ghana through a program called "Thinking Beyond Borders" and got to learn about Social Impact Theory and International Development. Going to Ghana was the first time I had ever been outside of the United States! </p>  
+
+<div class="clearfix">
+
+<div class="div2">
+<h3 id="baking"> Baking </h3>
+<p><img src="https://thebusybaker.ca/wp-content/uploads/2019/02/birthday-cake-cupcakes-with-chocolate-frosting-fb-ig-3.jpg" width=150 height=150></img></p>
+<p> I love baking! I usually like to make desserts like cakes, cupcakes, pies, cream puffs, lemon bars. <br><br>Most recently, I've been making a lot of crepes. (I even got a specialized crepe pan for Christmas.) </p>
+</div>
+<div class="div2">
+<h3 id ="crafts"> Arts and Crafts </h3>
+<p> Another hobby I have is arts and crafts. In the past, I've been into knitting, sewing, quilting, embroidery, drawing,and scrapbooking. Right now, I'm into brush-lettering (kind of like calligraphy) and making cut-out vinyl stickers and cards.  </p>
+</div>
+<h3 id="food"> Food and Drinks &#9749; </h3>
+<h4> Food </h4>
+
+<ul>
+
+<li> Pesto </li>
+<li> Tikka Masala and Biryani </li>
+<li> Risotto and scallops </li>
+</ul>
+<hr>
+<h4> Drinks </h4>
+<h5> More specifically...<br>types of coffee </h5>
+<ul>
+<li> Mocha from basically anywhere</li>
+<li> Light roast has more caffeine</li>
+<li> Some iced coffee in the summer</li>
+<li> Coffee flavored desserts...</li>
+</ul>
+<h6> Ok now back to drinks </h6>
+<ul>
+<li> Smoothies </li>
+<li> Green tea </li>
+</ul>
+<p>Hello there this is a test!</p>
+
+
+</div>
+</div>
+<?php
+$txt = "W3Schools.com";
+echo "I love " . $txt . "!";
+?>
+
+
+
+
+
+</body>
+</html>

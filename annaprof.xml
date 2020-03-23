@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+<professor category="faculty">
+<name>David A. Reimann</name>
+<email>dreimann@albion.edu</email>
+<department>Math/CS</department>
+<picture>DAR.jpg</picture>
+<phone>517-629-0426</phone>
+<cell></cell>
+<schedule>?</schedule>
+<office>
+	<room>252</room>
+	<building>Putnam</building>
+</office>
+</professor>
+
+<professor category="faculty">
+<name>Ian MacInnes</name>
+<email>imacinnesalbion.edu</email>
+<department>English</department>
+<picture></picture>
+<phone>517-629-5660</phone>
+<cell></cell>
+<schedule>?</schedule>
+<office>
+	<room>311</room>
+	<building>Vulgamore</building>
+</office>
+</professor>
+
+<professor category="faculty">
+<name>Mark Bollman</name>
+<email>dreimann@albion.edu</email>
+<department>Math/CS</department>
+<picture></picture>
+<phone>517-629-0261</phone>
+<cell></cell>
+<schedule>?</schedule>
+<office>
+	<room>226</room>
+	<building>Palenske</building>
+</office>
+</professor>
+
+<professor category="faculty">
+<name>Wesley Dick</name>
+<email>wdick@albion.edu</email>
+<department>History</department>
+<picture></picture>
+<phone></phone>
+<cell></cell>
+<schedule>?</schedule>
+<office>
+	<room>213</room>
+	<building>Robinson</building>
+</office>
+</professor>
+
+</people>
